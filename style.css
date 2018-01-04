@@ -1,0 +1,15 @@
+input {
+  width: 70%;
+	padding: 5px 10px;
+	margin-bottom: 15px;
+}
+
+p {
+  font-weight:bold;
+}
+
+#lookup {
+  width: 98%;
+  border: 1px red solid;
+  padding: 10px 10px;
+}

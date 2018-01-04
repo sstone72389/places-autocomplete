@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Places Auto-Complete Example</title>
+  <link rel = "stylesheet"
+  type = "text/css"
+  href = "style.css" />
+</head>
+
+<body>
+  <input type="text" data-type="autocomplete" id="lookup" />
+
+  <p>Full Output: </p>
+  <div data-id="output"></div>
+
+  <br>
+
+  <input placeholder="street address" data-id="address"></input>
+
+  <input placeholder="unit number (optional)"></input>
+
+  <input placeholder="city/town" data-id="city"></input>
+
+  <input placeholder="state" data-id="state"></input>
+
+  <input placeholder="zip code" data-id="zip"></input>
+
+  <!-- script must load async to allow callback of initAutocomplete -->
+
+  <!-- This is using MY api key. Key will need to be changed to ensure functionality remains -->
+
+  <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC4ibZsXB6kecJSY0lyRTudQQkitTE2QVU&libraries=places&callback=initAutocomplete" type="text/javascript" </script>
+
+    </body>
+  </html>
