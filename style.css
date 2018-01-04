@@ -8,8 +8,6 @@ p {
   font-weight:bold;
 }
 
-#lookup {
-  width: 98%;
-  border: 1px red solid;
-  padding: 10px 10px;
+#zip {
+  width: 460px;
 }
