@@ -9,7 +9,7 @@
   type = "text/css"
   href = "style.css" />
 
-  <script src="app.js" 
+  <script src="app.js"
   type="text/javascript"> </script>
 </head>
 
@@ -33,9 +33,15 @@
 
   <!-- script must load async to allow callback of initAutocomplete -->
 
-  <!-- This is using MY api key. Key will need to be changed to ensure functionality remains -->
+  <!-- This is using NO api key for security purposes. Key will need to be added to ensure functionality remains -->
 
-  <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC4ibZsXB6kecJSY0lyRTudQQkitTE2QVU&libraries=places&callback=initAutocomplete" type="text/javascript"></script>
+  <script async
+  src="https://maps.googleapis.com/maps/api/js?libraries=places&callback=initAutocomplete" type="text/javascript"></script>
+
+
+  <!-- Script with key looks like this:
+
+  <script async src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE&libraries=places&callback=initAutocomplete" type="text/javascript"></script> -->
 
     </body>
   </html>
