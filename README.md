@@ -4,7 +4,7 @@ This repository is a working example of using the google maps API to autocomplet
 
 Please note the following:
 
-*The script must be loaded asychronously to ensure callback works.
-*API key is my own and may need to be updated to ensure proper functionality
+* The script must be loaded asychronously to ensure callback works.
+* API key is my own and may need to be updated to ensure proper functionality
 
 Enjoy
