@@ -1,13 +1,38 @@
-input {
-  width: 70%;
-	padding: 5px 10px;
-	margin-bottom: 15px;
+h1 {
+  text-align: center;
 }
 
-p {
-  font-weight:bold;
+input, label {
+  margin: 5px 5px;
 }
 
-#zip {
-  width: 460px;
+.form-group {
+  margin: 30px auto;
+  width: 450px;
+}
+
+.form-control {
+  float: left;
+}
+
+#inputStreet {
+  width: 100%;
+}
+
+#inputCity {
+  width: 45%;
+}
+
+#inputZip {
+  width: 45%;
+}
+
+#inputState {
+  margin-left: 5px;
+  width: 45%;
+}
+
+#inputCountry {
+  margin-left: 7px;
+  width: 45%;
 }
