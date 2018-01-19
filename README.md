@@ -6,5 +6,6 @@ Please note the following:
 
 * The script must be deferred to ensure callback works.
 * This is utilizing bootstrap solely for the demo's purposes
+* This demo is using MY API KEY. Please use your own for continued functionality
 
 Enjoy
